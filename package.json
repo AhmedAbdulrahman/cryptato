@@ -27,8 +27,10 @@
   },
   "devDependencies": {
     "babel-eslint": "^8.2.2",
+    "babel-plugin-module-resolver": "^3.1.0",
     "eslint": "^4.18.2",
     "eslint-config-fyndiq": "^0.4.3",
+    "eslint-import-resolver-babel-module": "^4.0.0",
     "prettier": "^1.11.1"
   }
 }
