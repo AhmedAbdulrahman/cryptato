@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "build": "next build",
+    "build": "NODE_ENV=production next build",
     "start": "next start",
+    "export": "next export",
     "lint": "eslint --ignore-path .gitignore ."
   },
   "repository": {
@@ -42,6 +43,7 @@
     "eslint": "^4.18.2",
     "eslint-config-fyndiq": "^0.4.3",
     "eslint-import-resolver-babel-module": "^4.0.0",
+    "gh-pages": "^1.1.0",
     "prettier": "^1.11.1"
   }
 }
