@@ -9,4 +9,5 @@ module.exports = withCSS({
     }
   },
   assetPrefix: isProduction ? '/cryptato' : '',
+  distDir: 'build',
 })
