@@ -4,16 +4,6 @@
   box-sizing: border-box;
 }
 
-/* ::-moz-selection {
-  color: var(--color-white);
-  background: var(--color-red);
-}
-
-::selection {
-  color: var(--color-white);
-  background: var(--color-red);
-} */
-
 body {
   margin: 0 auto;
   width: 1000px;
@@ -21,9 +11,6 @@ body {
   line-height: 1.5;
   font-size: 14px;
   overflow-y: scroll;
-  /* background: #191927; */
-  /* background: #181A29; */
   background: #1D223E;
   font-family: 'Roboto', sans-serif;
-  /* font-family: 'Open Sans', sans-serif; */
 }
